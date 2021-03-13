@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 # meuPrimeiroProjetoNoGithub
 
 ```{python}
-2+2
+2+2+10
 ```
 
 ```{r}
