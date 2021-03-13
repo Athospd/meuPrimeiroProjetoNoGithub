@@ -20,7 +20,12 @@ summary(cars)
 #>  Mean   :15.4   Mean   : 42.98  
 #>  3rd Qu.:19.0   3rd Qu.: 56.00  
 #>  Max.   :25.0   Max.   :120.00
+library(ggplot2)
+
+ggplot(cars) + geom_point(aes(dist, speed))
 ```
+
+![](README_files/figure-gfm/cars-1.png)<!-- -->
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date. `devtools::build_readme()` is handy for this. You could also
